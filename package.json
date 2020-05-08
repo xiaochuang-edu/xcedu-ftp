@@ -1,0 +1,15 @@
+{
+  "name": "xcedu-ftp",
+  "version": "1.0.0",
+  "description": "晓窗科技模拟FTP 服务器，如上传的图片，视频，音频，PDF等静态资源",
+  "main": "package.json",
+  "author": "Xuan Hui<541951523@qq.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "serve": "^11.3.0"
+  },
+  "scripts": {
+    "serve": "serve -p 8499",
+    "serve:prod": "serve -p 8999"
+  }
+}
